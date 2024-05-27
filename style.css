@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('image1.jpg');
+    }
+    .container {
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+    text-align: center;
+    color: #007bff;
+    }
+    h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    }
+    select, button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    }
+    button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    }
+    button:hover {
+    
+    background-color: #0056b3;
+    }
+    #fareResult {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #28a745; /* Green color for successful fare payment */
+    }
+    #walletBalance {
+    margin-top: 10px;
+    font-weight: bold;
+    }
+    button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    }

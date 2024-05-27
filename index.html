@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Instant E-Bus Fare Payment System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Instant E-Bus Fare Payment System</h1>
+<div class="fare-calculation">
+<h2>Fare Calculation</h2>
+<label for="source">Source:</label>
+<select id="source">
+<option value="Coimbatore">Coimbatore</option>
+<option value="Tirupur">Tirupur</option>
+</select>
+<label for="destination">Destination:</label>
+<select id="destination">
+<option value="Pollachi">Pollachi</option>
+<option value="Karur">Karur</option>
+</select>
+<button onclick="calculateFare()">Calculate Fare</button>
+<div id="fareResult"></div>
+</div>
+<div class="wallet">
+<h2>Virtual Wallet</h2>
+<div id="walletBalance">Wallet Balance: $0.00</div>
+<button onclick="topUpWallet()">Top Up Wallet</button>
+<button onclick="payFare()">Pay Fare</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
